@@ -1,57 +1,37 @@
-# Project Name
+# Re-Former
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> in this project we created a form webpage that can take input from an user and allows him to manipulate it
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Postgress
+- ROR
+- HTML
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1 - after cloning the repo open you terminal in the location og the file and run```bundle install``` to get the necesary gems <br/>
+2 - run ```rails db:setup```<br/>
+3 - run ```rails server```<br/>
+4 - open up your browser and type http://0.0.0.0:3000/
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@simandebvu](https://github.com/simandebvu)
+- Twitter: [@simandebvu](https://twitter.com/simandebvu)
+- Linkedin: [linkedin](https://linkedin.com/simandebvu)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ricardo123321](https://github.com/ricardo123321)
+- Twitter: [@ricardo61592083](https://twitter.com/ricardo61592083)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ricardo-vera-7381a81a2/)
 
 ## 🤝 Contributing
 
@@ -62,12 +42,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

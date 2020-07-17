@@ -1,0 +1,35 @@
+
+<!--#<form action="/users" method="post" accept-charset="UTF-8">
+  <input type="hidden" name="authenticity_token" value="
+  <%= form_authenticity_token %>">
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="user[username]"><br>
+  <label for="email">Email: </label>
+  <input type="email" id="email" name="user[email]"><br>
+  <label for="password">Password: </label>
+  <input type="password" id="password" name="user[password]"><br>
+  <input type="submit" value="Create">
+</form>-->
+
+<%= form_for(@user) do |f|%>
+  <ul>
+  <% @user.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+  <% end %>
+  </ul>
+  <p>
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.email_field :email %>
+  </p>
+  <p>
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </p>
+    <p>
+    <%= f.submit %>
+  </p>
+  <% end %>
